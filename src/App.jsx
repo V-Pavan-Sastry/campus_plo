@@ -7,9 +7,15 @@ import {
 } from "react-router-dom";
 import Applications from './pages/Applications/Applications';
 import Support from './pages/Support/Support';
+import Login from './pages/login/login';
+import MyCredentials from './pages/MyCredentials/MyCredentials';
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Login/>,
+  },
+  {
+    path: "/dash",
     element: <Dashboard/>,
   },
   {
@@ -20,6 +26,11 @@ const router = createBrowserRouter([
     path: "/support",
     element: <Support/>,
   },
+  {
+    path: "/MyCredentials",
+    element: <MyCredentials/>,
+  },
+
 ]);
 function App() {
   return <>

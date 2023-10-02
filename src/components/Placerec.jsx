@@ -43,7 +43,7 @@ const Placerec = () => {
         <Button bg="#96d3ff" _hover={{
             bg:"#e0efff" 
         }}fontSize={{base:"22px", lg:"24px"}} fontWeight="500">
-            <Icon as={FcRefresh}/> Refresh
+            <Icon as={FcRefresh} /> Refresh
         </Button>
     </HStack>
   )

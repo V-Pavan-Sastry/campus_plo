@@ -9,7 +9,7 @@ const Sidenav = () => {
         {
             icon:RxDashboard,
             text:"DashBoard",
-            link:"/"
+            link:"/dash"
         },
         {
             icon:GrDocumentTransfer,
